@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/techwsrk/public_html/ebuka/
+    - /bin/cp -R public/* $DEPLOYPATH
